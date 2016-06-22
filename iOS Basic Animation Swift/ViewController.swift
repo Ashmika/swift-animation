@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.container.frame = CGRect(x: 80, y: 80, width: 200, height: 200)
+        self.container.frame = CGRect(x: 85, y: 85, width: 200, height: 200)
         self.view.addSubview(container)
         
         // set green Container frame up
@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         
         // for now just add the green container
         // we'll add blueContainer as part of the transition animation
-        self.container.addSubview(self.greenContainer)
         
+        self.container.addSubview(self.greenContainer)
         
     }
     
